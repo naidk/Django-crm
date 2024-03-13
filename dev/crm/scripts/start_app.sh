@@ -1,6 +1,6 @@
 #!/usr/bin/bash 
 
-sed -i 's/\[]/\["54.144.250.113"]/' /home/ubuntu/Django-CRM-mastery-app-Project-1-YT-main/dev/crm/settings.py
+sed -i 's/\[]/\["54.144.250.113"]/' /home/ubuntu/Django-crm/dev/crm/settings.py
 
 python manage.py migrate 
 python manage.py makemigrations     
