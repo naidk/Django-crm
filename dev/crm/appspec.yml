@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files: 
   - source: /
-    destination: /home/ubuntu/Django-CRM-mastery-app-Project-1-YT-main
+    destination: /home/ubuntu/Django-crm
 permissions:
-  - object: /home/ubuntu/Django-CRM-mastery-app-Project-1-YT-main
+  - object: /home/ubuntu/Django-crm
     owner: ubuntu
     group: ubuntu
 hooks:
