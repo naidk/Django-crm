@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files: 
   - source: /
-    destination: /home/ubuntu/Django-crm
+    destination: /home/ubuntu/Django-crm/dev
 permissions:
-  - object: /home/ubuntu/Django-crm
+  - object: /home/ubuntu/Django-crm/dev
     owner: ubuntu
     group: ubuntu
 hooks:
